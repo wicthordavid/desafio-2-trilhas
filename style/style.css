@@ -240,3 +240,39 @@ input[type="file"] {
 }
 /*BOTÕES INFERIOES*/
 
+/*RESPONSIVIDADE MOBILE*/
+
+@media screen and (max-width: 768px) {
+    .pagina {
+        margin: 0 5%;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .pagina input,
+    .pagina select,
+    .custom-file-upload {
+        width: 100%;
+    }
+
+    .trilhas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trilha {
+        width: 100%;
+    }
+
+    .botoes__inferiores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botao {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*RESPONSIVIDADE MOBILE*/
